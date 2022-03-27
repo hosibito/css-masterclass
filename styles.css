@@ -11,8 +11,7 @@ body {
 }
 
 .child {
-  width: 300px;
-  height: 200px;
+  flex-basis: 30%;
   background: peru;
   color: white;
   font-size: 50px;
