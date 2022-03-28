@@ -1,22 +1,15 @@
-h2 {
-  color: #e7473c;
-  font-size: 32px;
+a {
+  margin-bottom: 10px;
 }
-
-.box {
-  margin-top: 20px;
+a:nth-child(odd) {
+  text-decoration: none;
+  display: block;
+  color: red;
 }
-.box:hover {
-  background-color: green;
-}
-.box h2 {
+a:nth-child(even) {
+  text-decoration: none;
+  display: block;
   color: blue;
-}
-.box h2:hover {
-  color: red;
-}
-.box button {
-  color: red;
 }
 
 /*# sourceMappingURL=styles.css.map */
